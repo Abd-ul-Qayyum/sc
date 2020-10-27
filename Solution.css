@@ -35,7 +35,7 @@ nav a{
     padding: 7px 10px;
     border-radius: 10px;
 }
-a.active, a:hover {
+a:active, a:hover {
     background-color: rgb(21, 21, 39);
     border: 1px solid white;
     transition: .5s;
@@ -107,4 +107,8 @@ nav #icon{
         left: 0;
     }
 
+}
+div.para{
+    width: 20px;
+    height: fit-content;
 }
